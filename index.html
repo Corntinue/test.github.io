@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name=""viewport" content="'width=device-width", initial-scale="1">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="header-wrapper">
+        <div class="title">
+            <div class="logo" style="background-image: url(assets/bocchi.png);"></div>
+            <h1>My Website</h1>
+        </div>
+        <div class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Our Profile</a>
+            <a href="#">Message Us!</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Hi User, Welcome to Our Website</h1>
+        <p>This is a test website</p>
+        <img class="header-img" src="assets/bocchi.png" alt="header">
+        <!-- <img class="header-img" src="assets/2.jpg" alt="header">
+        <img class="header-img" src="assets/3.png" alt="header"> -->
+    </header>
+
+    <section>
+        <fieldset>
+            <legend>Facilities</legend>
+            <div class="facilities">
+                <div class="facilities-item">
+                    <div class="bg-image" style="background-image: url(assets/bocchi.png);"></div>
+                    <p>Jakarta</p>
+                </div>
+                <div class="facilities-item">
+                    <div class="bg-image" style="background-image: url(assets/bocchi.png);"></div>
+                    <p>Bandung</p>
+                </div>
+                <div class="facilities-item">
+                    <div class="bg-image" style="background-image: url(assets/bocchi.png);"></div>
+                    <p>Surabaya</p>
+                </div>
+            </div>
+        </fieldset>
+    </section>
+
+    <section>
+        <h1>Message Us !</h1>
+        <form class="message-us-form" name="message-us-form">
+            <div class="input-form">
+                <div>
+                    <label>Nama:</label><input type="text" name="nama">
+                </div>
+                <div>
+                    <label>Tanggal Lahir:</label><input type="text" name="tanggal-lahir">
+                </div>
+                <div>
+                    <p>Jenis Kelamin:</p>
+                    <input type="radio" name="jekel" value="pria">
+                        <label for="pria">Pria</label><br>
+                    <input type="radio" name="jekel" value="wanita">
+                        <label for="wanita">Wanita</label><br>
+                </div>
+                <div>
+                    <label>Pesan:</label><input type="text" name="pesan">
+                </div>
+                <button type="button" id="send-message-us-form">Send</button>
+                 </div>
+                 
+            <div class="result-form">
+                <b>Current Time :</b>
+                <span id="current-time"></span><br>
+                <b>Nama :</b>
+                <span id="nama"></span><br>
+                <b>Tanggal Lahir :</b>
+                <span id="tanggal-lahir"></span><br>
+                <b>Jenis Kelamin:</b>
+                <span id='jekel'></span><br>
+                <b>Pesan:</b>
+                <span id="pesan"></span>
+
+            </div>
+        </form>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>

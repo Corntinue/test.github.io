@@ -1,0 +1,135 @@
+body{font-family: Arial, Helvetica, sans-serif;}
+header{
+    display : flex; 
+    justify-content: space-evenly;
+    align-items: center; 
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation{
+    list-style: none;
+}
+.navigation>a {
+    align-self: center;
+    margin-right: 4px;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.facilities{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+}
+
+fieldset {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.facilities-item>p {
+    font-size: 16px;
+}
+
+
+.facilities-item {
+    text-align: center;
+}
+
+
+.header-img {
+    width: 100%;
+    height: 500px;
+}
+
+
+.message-us-form {
+    display: flex;
+}
+
+
+.input-form,
+.result-form {
+    flex: 1;
+}
+
+
+.input-form>div {
+    padding-bottom: 16px;
+}
+
+.jekel{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+input {
+    height: 16px;
+}
+
+
+.form-field {
+    margin-left: 16px;
+}
+
+
+.field-title {
+    display: inline-block;
+    width: 100px;
+}
+
+
+section,
+header {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+
+.result-form {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+    .container,
+    .facilitiess {
+        flex-direction: column;
+        align-items: center;
+    }
+}
